@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Responsive Page</title>
+    <style>
+        /* General Styles */
+        body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; background-color: #f4f4f4; }
+        
+        /* Navigation */
+        nav { background: #333; color: #fff; padding: 1rem; text-align: center; position: sticky; top: 0; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+
+        /* Header/Hero Section */
+        header { background: #007bff; color: white; padding: 60px 20px; text-align: center; }
+
+        /* Main Content Area */
+        .container { max-width: 1000px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
+        
+        /* Two-Column Section */
+        .row { display: flex; flex-wrap: wrap; gap: 20px; }
+        .main-content { flex: 2; min-width: 300px; }
+        .sidebar { flex: 1; min-width: 250px; background: #eee; padding: 15px; border-radius: 5px; }
+
+        /* Footer */
+        footer { background: #222; color: #ccc; text-align: center; padding: 20px; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Welcome to My Professional Page</h1>
+        <p>A simple, clean, and responsive design for your next project.</p>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <!-- Main Section -->
+            <section class="main-content">
+                <h2>Our Story</h2>
+                <p>This is where your main article or information goes. By using a "flex" layout, this section will automatically adjust its size based on the screen width.</p>
+                <h3>Why Choose Us?</h3>
+                <ul>
+                    <li>Responsive Design for mobile and desktop.</li>
+                    <li>Clean, semantic HTML5 code.</li>
+                    <li>Easy to customize styles.</li>
+                </ul>
+            </section>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h3>Latest Updates</h3>
+                <p>Check out our new features added this month!</p>
+                <button onclick="alert('Hello!')">Click Me</button>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Website Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
