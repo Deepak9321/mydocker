@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('Checkout'){
+        stage('1.Checkout'){
             steps{
                 git url: 'https://gitlab.siescoms.in/mca25009/dockernew.git', branch:'main'
             }
